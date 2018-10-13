@@ -7,7 +7,7 @@ package bcaas.io.bybitcoindemo.ui.contracts;
 public interface MainContract {
 
     interface View {
-
+        void response(String responseJson);
 
     }
 

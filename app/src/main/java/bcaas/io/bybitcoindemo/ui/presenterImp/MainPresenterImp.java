@@ -29,11 +29,14 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -46,11 +49,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -63,11 +70,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -80,11 +91,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -97,11 +112,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -114,11 +133,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -131,11 +154,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -148,11 +175,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -165,11 +196,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -182,11 +217,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -199,11 +238,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -216,11 +259,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
@@ -233,11 +280,15 @@ public class MainPresenterImp implements MainContract.Presenter {
             @Override
             public void onResponse(Call<ResponseJson> call, Response<ResponseJson> response) {
                 LogTool.d(TAG, response.body());
+                ResponseJson responseJson = response.body();
+                view.response(responseJson.toString());
+
             }
 
             @Override
             public void onFailure(Call<ResponseJson> call, Throwable t) {
                 LogTool.e(TAG, t.getMessage());
+                view.response(t.getMessage());
 
             }
         });
